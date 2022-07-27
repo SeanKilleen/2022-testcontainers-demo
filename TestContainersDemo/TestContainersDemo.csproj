@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.7.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
+    <PackageReference Include="Neo4j.Driver.Extensions" Version="1.0.14" />
+    <PackageReference Include="Neo4j.Driver.Signed" Version="4.4.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3testadapter" Version="4.2.1" />
+    <PackageReference Include="SpecFlow" Version="3.9.74" />
+    <PackageReference Include="SpecFlow.Nunit" Version="3.9.74" />
+    <PackageReference Include="SPecFlow.Tools.MsBuild.Generation" Version="3.9.74" />
+    <PackageReference Include="TestContainers" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
